@@ -1,0 +1,55 @@
+body {
+   background: linear-gradient(#f6f6f6, #ffeadb, #f7c5a8, #679b9b);
+}
+
+h1,
+h3,
+h4 {
+   font-family: 'Montserrat',
+      sans-serif;
+}
+h1,h4{
+   font-weight: 700;
+}
+p, ul {
+   font-family: 'Lato', sans-serif;
+}
+
+/* Profile */
+.profile {
+   border-radius: 30px;
+   background-color: white;
+}
+
+/* Intro-heading */
+.intro-heading {
+   float: left;
+}
+
+/* Buttons */
+.my-work-btn {
+   border: 2px solid #679b9b;
+   color: #679b9b;
+}
+
+.my-work-btn:hover {
+   color: white;
+   background: #679b9b;
+}
+
+.email-me-btn {
+   background: #f7c5a8;
+   color: white;
+}
+
+.email-me-btn:hover {
+   border: 2px solid #f7c5a8;
+   color: #f7c5a8;
+   background: white;
+}
+
+/* Profile Picture */
+.profile-picture {
+   width: 400px;
+   height: auto;
+}
